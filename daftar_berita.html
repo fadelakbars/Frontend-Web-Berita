@@ -7,45 +7,39 @@
     <title>Daftar Berita - News Website</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
 
-        .news-list-section {
-            margin-top: 40px;
-        }
+    <link rel="stylesheet" href="/css/style.css">
 
-        .news-item {
-            margin-bottom: 30px;
-        }
-
-        .news-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .news-item h5 {
-            color: #1E3E62;
-            font-size: 1.25rem;
-            font-weight: bold;
-            margin-top: 15px;
-        }
-
-        .news-item p {
-            color: gray;
-            margin-bottom: 15px;
-        }
-
-        .pagination {
-            justify-content: center;
-        }
-    </style>
 </head>
 
 <body>
-
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MY NEWS WEBSITE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Container for News List -->
     <div class="container news-list-section">
         <h1 class="text-center mb-5">Daftar Berita</h1>
@@ -54,46 +48,46 @@
         <div class="row">
             <!-- News Item 1 -->
             <div class="col-md-4 news-item">
-                <img src="news-image1.jpg" alt="News Image 1">
-                <h5>Judul Berita 1</h5>
-                <p>Deskripsi singkat berita yang menarik perhatian pembaca. Lorem ipsum dolor sit amet...</p>
-                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                <img src="/IMG/670dcf8002644.jpg" alt="News Image 1">
+                <h5>Adobe Photoshop Punya Fitur Al Baru, Bisa Deteksi dan Hapus Obyek Mengganggu secara Otomatis</h5>
+                <p>Fitur yang termasuk ke dalam fungsi Remove Tool ini memungkinkan pengguna menghapus obyek mengganggu dengan mudah dengan satu kali klik.</p>
+                <a href="detail_berita.html" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
             <!-- News Item 2 -->
             <div class="col-md-4 news-item">
-                <img src="news-image2.jpg" alt="News Image 2">
-                <h5>Judul Berita 2</h5>
-                <p>Deskripsi singkat berita yang menarik perhatian pembaca. Lorem ipsum dolor sit amet...</p>
-                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                <img src="/IMG/66ffeaa4c8c47.jpg" alt="News Image 2">
+                <h5>1 0 Startup Unicorn yang Lahir di Indonesia Selama 1 Dekade Terakhir</h5>
+                <p>Selama pemerintahan Joko Widodo, Indonesia melahirkan sejumlah startup unicorn. Setidaknya ada 10 startup unicorn yang lahir dalam 1 dekade ini.</p>
+                <a href="detail_berita.html" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
             <!-- News Item 3 -->
             <div class="col-md-4 news-item">
-                <img src="news-image3.jpg" alt="News Image 3">
-                <h5>Judul Berita 3</h5>
-                <p>Deskripsi singkat berita yang menarik perhatian pembaca. Lorem ipsum dolor sit amet...</p>
-                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                <img src="/IMG/666276367f782.jpg" alt="News Image 3">
+                <h5>Apa Itu Offload Aplikasi di iPhone dan Cara Menggunakannya biar Hemat Memori</h5>
+                <p>Offload di iPhone adalah fitur yang memungkinkan Anda menghapus aplikasi tanpa menghilangkan data dan dokumen yang terkait dengan aplikasi tersebut.</p>
+                <a href="detail_berita.html" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
 
             <!-- News Item 4 -->
             <div class="col-md-4 news-item">
-                <img src="news-image4.jpg" alt="News Image 4">
-                <h5>Judul Berita 4</h5>
-                <p>Deskripsi singkat berita yang menarik perhatian pembaca. Lorem ipsum dolor sit amet...</p>
-                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                <img src="/IMG/670dc4d0cf5e6.png" alt="News Image 4">
+                <h5>Adobe Rilis Firefly Video Model, Al Pembuat Video Berdasar Teks</h5>
+                <p>Adobe merilis alat generatif Al untuk membuat video berdasarkan teks, bernama Adobe Firefly Video Model. Alat ini mirip seperti Sora buatan OpenAl.</p>
+                <a href="detail_berita.html" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
             <!-- News Item 5 -->
             <div class="col-md-4 news-item">
-                <img src="news-image5.jpg" alt="News Image 5">
-                <h5>Judul Berita 5</h5>
-                <p>Deskripsi singkat berita yang menarik perhatian pembaca. Lorem ipsum dolor sit amet...</p>
-                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                <img src="/IMG/65af936ac6b80.jpg" alt="News Image 5">
+                <h5>Podcast Antarmuka: Ingin Kerja di Bidang Al, Harus Kuliah Jurusan Apa?</h5>
+                <p>Al sebenarnya bukan barang baru. Namun, penggunaan Al kian masif dan membuka peluang karier yang menjanjikan.</p>
+                <a href="detail_berita.html" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
             <!-- News Item 6 -->
             <div class="col-md-4 news-item">
-                <img src="news-image6.jpg" alt="News Image 6">
-                <h5>Judul Berita 6</h5>
-                <p>Deskripsi singkat berita yang menarik perhatian pembaca. Lorem ipsum dolor sit amet...</p>
-                <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                <img src="/IMG/62b59cf40a431.jpg" alt="News Image 6">
+                <h5>5 Besar Vendor Smartphone Global Kuartal 111-2024 Versi Canalys, Samsung Teratas</h5>
+                <p>Canalys merilis laporan jumlah pangsa pasar smartphone global. Samsung masih teratas meski memimpin tipis dari Apple.</p>
+                <a href="detail_berita.html" class="btn btn-primary">Baca Selengkapnya</a>
             </div>
         </div>
 
@@ -112,6 +106,26 @@
             </ul>
         </nav>
     </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <!-- Left Side: Copyright and Links -->
+                <div class="footer-left">
+                    <p>&copy; 2024 NewsSite - All Rights Reserved</p>
+                    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                </div>
+    
+                <!-- Right Side: Contact Information -->
+                <div class="footer-right text-left">
+                    <p><strong>Kontak:</strong></p>
+                    <p>Mutia</p>
+                    <p><a href="https://wa.me/6281276106643">081276106643</a></p>
+                    <p><a href="mailto:mutiahkasim9@gmail.com">mutiahkasim9@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
