@@ -14,34 +14,39 @@
             font-family: 'Roboto', sans-serif;
         }
 
-        .register-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+        /* Flexbox untuk memusatkan form */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Menjaga agar form login berada di tengah secara vertikal */
+    padding: 20px; /* Jaga jarak jika layar kecil */
+}
 
-        .card {
-            width: 100%;
-            max-width: 400px;
-            padding: 20px;
-            border-radius: 8px;
-        }
+/* Batasi tinggi form agar tidak terlalu panjang */
+.card {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
 
-        .btn-social {
-            width: 100%;
-            margin-bottom: 10px;
-        }
+/* Sesuaikan tampilan tombol login */
+.btn-social {
+    width: 100%;
+    margin-bottom: 10px;
+}
 
-        .btn-social i {
-            margin-right: 8px;
-        }
+.btn-social i {
+    margin-right: 8px;
+}
 
-        .card-header {
-            background-color: #0B192C;
-            color: white;
-            text-align: center;
-        }
+.card-header {
+    background-color: #0B192C;
+    color: white;
+    text-align: center;
+}
+
     </style>
 </head>
 
